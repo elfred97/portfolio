@@ -9,8 +9,15 @@
   <meta name="keywords" content="web developer, frontend developer, backend developer, full-stack developer, Elfred Tapar">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Elfred Tapar" />
+  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -41,7 +48,7 @@
           <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
           <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
           <li><a href="#projects"><i class="bi bi-images navicon"></i> Projects</a></li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <!-- <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li> -->
         </ul>
       </nav>
 
@@ -78,7 +85,11 @@
 
                 <div class="hero-actions">
                   <a href="#projects" class="btn btn-primary">View My Work</a>
-                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                  <a href="mailto:elfredtapar@gmail.com" class="btn btn-outline">Get In Touch</a>
+                  <!-- <a href="assets/pdf/resume.pdf" download="Elfred_Tapar_Resume.pdf" class="btn btn-primary">
+                    <i class="bi bi-download"></i>
+                    Download Resume
+                  </a> -->
                 </div>
 
                 <div class="social-links">
@@ -133,7 +144,7 @@
                     <i class="bi bi-telephone"></i>
                     +63 912 366 1727
                   </a>
-                  <a href="#" class="contact-item">
+                  <a href="https://www.google.com/maps/place/Camarines+Sur/" class="contact-item">
                     <i class="bi bi-geo-alt"></i>
                     Camarines Sur, Philippines
                   </a>
@@ -182,11 +193,11 @@
               </div>
 
               <div class="cta-section">
-                <a href="#" class="btn btn-primary">
+                <a href="assets/pdf/resume.pdf" download="Elfred_Tapar_Resume.pdf" class="btn btn-primary">
                   <i class="bi bi-download"></i>
                   Download Resume
                 </a>
-                <!-- <a href="#" class="btn btn-outline">
+                <!-- <a href="mailto:elfredtapar@gmail.com" class="btn btn-outline">
                   <i class="bi bi-chat-dots"></i>
                   Let's Talk
                 </a> -->
@@ -663,102 +674,6 @@
       </div>
 
     </section><!-- /Projects Section -->
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row g-4 g-lg-5">
-          <div class="col-lg-5">
-            <div class="info-box">
-              <h3>Contact Info</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
-
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-geo-alt"></i>
-                </div>
-                <div class="content">
-                  <h4>Our Location</h4>
-                  <p>Calabanga, Camarines Sur</p>
-                  <p>Philippines, 4405</p>
-                </div>
-              </div>
-
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-telephone"></i>
-                </div>
-                <div class="content">
-                  <h4>Phone Number</h4>
-                  <p>+63 912 345 6789</p>
-                </div>
-              </div>
-
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-envelope"></i>
-                </div>
-                <div class="content">
-                  <h4>Email Address</h4>
-                  <p>elfredtapar@gmail.com</p>
-                  <!-- <p>elfredtapar.it@gmail.com</p> -->
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <div class="contact-form">
-              <h3>Get In Touch</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
-
-              <form action="forms/contact.php" method="POST" class="php-email-form">
-                <div class="row gy-4">
-
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                  </div>
-
-                  <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                    <button type="submit" class="btn">Send Message</button>
-                  </div>
-
-                </div>
-              </form>
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
 
   </main>
   
