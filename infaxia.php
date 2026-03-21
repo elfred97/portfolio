@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Elfred Tapar - Glow Wallet</title>
+  <title>Elfred Tapar - Infaxia</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -44,17 +44,17 @@
     <div class="header-container d-flex flex-column align-items-start">
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#projects"><i class="bi bi-images navicon"></i> Projects</a></li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <li><a href="/"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="/#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="/#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="/#projects"><i class="bi bi-images navicon"></i> Projects</a></li>
+          <li><a href="/#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
         </ul>
       </nav>
 
       <div class="social-links text-center">
-        <a href="#" class="google-plus"><i class="bi bi-github"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/elfredtapar" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/elfred-tapar-a403b2113" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -66,17 +66,17 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Glow Wallet</h1>
+        <h1 class="mb-2 mb-lg-0">Infaxia</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Glow Wallet</li>
+            <li class="current">Infaxia</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Glow Wallet Section -->
+    <!-- Infaxia Section -->
     <section id="portfolio-details" class="portfolio-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -105,15 +105,15 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/glowwallet-1.png" alt="Glow Wallet Image" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/infaxia-1.png" alt="Infaxia Image" class="img-fluid" loading="lazy">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/glowwallet-2.png" alt="Glow Wallet Image" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/infaxia-2.png" alt="Infaxia Image" class="img-fluid" loading="lazy">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/glowwallet-3.png" alt="Glow Wallet Image" class="img-fluid" loading="lazy">
+                  <img src="assets/img/portfolio/infaxia-3.png" alt="Infaxia Image" class="img-fluid" loading="lazy">
                 </div>
 
               </div>
@@ -126,9 +126,9 @@
               <h3>Project Information</h3>
               <ul>
                 <li><strong>Category</strong>: Web Development</li>
-                <li><strong>Project date</strong>: March 2019</li>
-                <li><strong>Project URL</strong>: <a href="#" target="_blank">www.example.com</a></li>
-                <li><strong>Tech</strong>: React JS, Laravel, PHP, Redis, MySQL, RabbitMQ</li>
+                <li><strong>Project date</strong>: March 2024</li>
+                <li><strong>Project URL</strong>: <a href="https://quest.infaxia.io/" target="_blank">https://quest.infaxia.io/</a></li>
+                <li><strong>Tech</strong>: React JS, Laravel, PHP, Redis, MySQL, RabbitMQ, GIT, Docker</li>
               </ul>
             </div>
           </div>
@@ -136,54 +136,55 @@
           <div class="col-lg-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>Project Overview</h2>
-              <p>The Glow Wallet is a web-based digital wallet platform designed to enable users to securely manage funds, perform transactions, and access financial services through an online interface.</p>
-              <p>
-                The platform is part of a broader financial ecosystem associated with Glow Wallet services, offering modern digital financial solutions similar to other e-wallet systems.
-              </p>
+              <p>INFAXIA Quest is a gamified task and rewards platform within the INFAXIA metaverse. It allows users to complete activities (“quests”), earn rewards, and engage with platform features such as referrals, games, and virtual interactions.</p>
+              <p>The system is designed to increase user engagement, retention, and community growth through incentives and interactive experiences.</p>
 
               <div class="features mt-4">
                 <h3>Key Features</h3>
                 <div class="row gy-3">
                   <div class="col-md-6">
                     <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
-                      <i class="bi bi-person-check"></i>
-                      <h4>User Authentication</h4>
+                      <i class="bi bi-controller"></i>
+                      <h4>Quest System</h4>
                       <ul>
-                        <li>Account registration and login functionality</li>
-                        <li>Secure credential handling (email + password)</li>
+                        <li>Users complete assigned or optional tasks</li>
+                        <li>Tasks may include platform actions, engagement steps, or promotions</li>
+                        <li>Rewards are granted upon completion</li>
                       </ul>
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
-                      <i class="bi bi-wallet2"></i>
-                      <h4>Wallet Management</h4>
+                      <i class="bi bi-currency-bitcoin"></i>
+                      <h4>Rewards & Incentives</h4>
                       <ul>
-                        <li>View and manage wallet balance</li>
-                        <li>Track transaction history</li>
+                        <li>Earn rewards from completed quests</li>
+                        <li>Track claimed and unclaimed rewards through the dashboard</li>
                       </ul>
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="feature-item" data-aos="fade-up" data-aos-delay="600">
-                      <i class="bi bi-currency-exchange"></i>
-                      <h4>Transactions</h4>
+                      <i class="bi bi-hand-thumbs-up"></i>
+                      <h4>Referral Program</h4>
                       <ul>
-                        <li>Initiate and manage various types of transactions</li>
-                        <li>View transaction details and status</li>
+                        <li>Invite new users to the platform</li>
+                        <li>View referral history and performance</li>
+                        <li>Earn rewards based on successful referrals</li>
                       </ul>
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="feature-item" data-aos="fade-up" data-aos-delay="700">
-                      <i class="bi bi-fingerprint"></i>
-                      <h4>Security Features</h4>
+                      <i class="bi bi-badge-vr"></i>
+                      <h4>Metaverse Integration</h4>
                       <ul>
-                        <li>End-to-end encryption for all transactions</li>
-                        <li>Multi-factor authentication for account access</li>
+                        <li>Accessible within the INFAXIA virtual environment</li>
+                        <li>Users interact via avatars and digital spaces</li>
+                        <li>Includes additional features like games (e.g., poker modules)</li>
                       </ul>
                     </div>
                   </div>

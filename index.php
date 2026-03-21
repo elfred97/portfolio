@@ -1,59 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Elfred Tapar - Web Developer</title>
-  <meta name="description" content="Elfred Tapar is a professional web developer with expertise in creating modern, responsive websites and applications.">
-  <meta name="keywords" content="web developer, frontend developer, backend developer, full-stack developer, Elfred Tapar">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-</head>
-
-<body class="index-page">
-
-  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="header-container d-flex flex-column align-items-start">
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#projects"><i class="bi bi-images navicon"></i> Projects</a></li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="social-links text-center">
-        <a href="https://github.com/elfredtapar" class="github"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/elfred-tapar-a403b2113" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
-    </div>
-
-  </header>
-
+<?php require_once('header.php'); ?>
   <main class="main">
 
     <!-- Hero Section -->
@@ -605,7 +550,7 @@
 
     </section><!-- /Resume Section -->
 
-    <!-- Portfolio Section -->
+    <!-- Projects Section -->
     <section id="projects" class="portfolio section">
 
       <!-- Section Title -->
@@ -631,12 +576,12 @@
                         <h4>Crypto Wallet Application</h4>
                         <div class="portfolio-links">
                           <a href="https://dev-user.glow-ewallet.com/login" target="_blank" title="View Project"><i class="bi bi-box-arrow-up-right"></i></a>
-                          <a href="glowwallet.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                          <a href="/glowwallet" title="More Details"><i class="bi bi-arrow-right"></i></a>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><!-- End Portfolio Item -->
+                </div><!-- End Projects Item -->
 
                 <div class="col-lg-4 col-md-4 portfolio-item isotope-item filter-design">
                   <div class="portfolio-wrap">
@@ -647,14 +592,14 @@
                         <h4>VR Games Promotion</h4>
                         <div class="portfolio-links">
                           <a href="https://quest.infaxia.io/" target="_blank" title="View Project"><i class="bi bi-box-arrow-up-right"></i></a>
-                          <a href="infaxia.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                          <a href="/infaxia" title="More Details"><i class="bi bi-arrow-right"></i></a>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><!-- End Portfolio Item -->
+                </div><!-- End Projects Item -->
 
-              </div><!-- End Portfolio Container -->
+              </div><!-- End Projects Container -->
             </div>
           </div>
 
@@ -662,7 +607,7 @@
 
       </div>
 
-    </section><!-- /Portfolio Section -->
+    </section><!-- /Projects Section -->
 
 
     <!-- Contact Section -->
@@ -761,38 +706,4 @@
     </section><!-- /Contact Section -->
 
   </main>
-
-  <footer id="footer" class="footer position-relative">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Elfred Tapar</strong> <span>All Rights Reserved</span></p>
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+<?php require_once('footer.php')?>

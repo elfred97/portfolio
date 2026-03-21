@@ -44,17 +44,17 @@
     <div class="header-container d-flex flex-column align-items-start">
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#projects"><i class="bi bi-images navicon"></i> Projects</a></li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <li><a href="/"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="/#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="/#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="/#projects"><i class="bi bi-images navicon"></i> Projects</a></li>
+          <li><a href="/#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
         </ul>
       </nav>
 
       <div class="social-links text-center">
-        <a href="#" class="google-plus"><i class="bi bi-github"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/elfredtapar" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/elfred-tapar-a403b2113" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -127,7 +127,7 @@
               <ul>
                 <li><strong>Category</strong>: Web Development</li>
                 <li><strong>Project date</strong>: March 2019</li>
-                <li><strong>Project URL</strong>: <a href="#" target="_blank">www.example.com</a></li>
+                <li><strong>Project URL</strong>: <a href="https://dev-user.glow-ewallet.com/" target="_blank">https://dev-user.glow-ewallet.com/</a></li>
                 <li><strong>Tech</strong>: React JS, Laravel, PHP, Redis, MySQL, RabbitMQ</li>
               </ul>
             </div>
