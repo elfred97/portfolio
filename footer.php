@@ -29,32 +29,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('#result').hide();
-      $.validator.setDefaults({
-          submitHandler: function() {
-              var nameValue = $('#name').val();
-              var emailValue = $('#email').val();
-              var messageValue = $('#message').val();
-              console.log(nameValue, emailValue, messageValue);
-              $.ajax({
-                  type: "GET",
-                  url: "contactSubmission.php",
-                  data: {
-                      name: $('#name').val(),
-                      email: $('#email').val(),
-                      message: $('#messageValue').val()
-                  }
-              }).done(function(){
-                  $('#contactForm').find("input[type=text], input[type=email], textarea").val("");
-                  $('#result').slideDown();
-              });
-          }
-      });
-      $("#contactForm").validate();
-    });
-  </script>
+ 
 </body>
 
 </html>
