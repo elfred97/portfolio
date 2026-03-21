@@ -666,7 +666,7 @@
               <h3>Get In Touch</h3>
               <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
 
-              <form action="email/contact.php" method="post" class="php-email-form">
+              <form action="email/contact.php" method="post" >
                 <div class="row gy-4">
 
                   <div class="col-md-6">
