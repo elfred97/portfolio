@@ -496,7 +496,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 60px 30px;
   overflow: clip;
 }
 
@@ -1597,6 +1597,10 @@ section,
   height: 100%;
 }
 
+.portfolio .portfolio-wrap:hover img{
+  opacity: .5;
+}
+
 .portfolio .portfolio-wrap img {
   transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
   width: 100%;
@@ -1624,7 +1628,7 @@ section,
 
 .portfolio .portfolio-wrap .portfolio-info .category {
   display: inline-block;
-  color: var(--accent-color);
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1634,7 +1638,7 @@ section,
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: var(--contrast-color);
+  color: #fff;
   font-weight: 700;
   margin-bottom: 15px;
 }
