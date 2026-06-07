@@ -1096,12 +1096,12 @@ section,
   border: 2px solid transparent;
 }
 
-.about .cta-section .btn.btn-primary {
+.about .cta-section .btn.btn-primary, .portfolio .btn.btn-primary {
   background-color: var(--accent-color);
   color: var(--contrast-color);
 }
 
-.about .cta-section .btn.btn-primary:hover {
+.about .cta-section .btn.btn-primary:hover, .portfolio .btn.btn-primary:hover {
   background-color: color-mix(in srgb, var(--accent-color), black 15%);
   transform: translateY(-2px);
   box-shadow: 0 10px 30px color-mix(in srgb, var(--accent-color), transparent 60%);
